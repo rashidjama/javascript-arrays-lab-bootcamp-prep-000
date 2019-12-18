@@ -23,5 +23,12 @@ var kittens = ['Milo','Otis','Garfield'] //define your array here
   function prependKitten(name) {
     return [name, ... kittens];
   }
+  function removeLastKitten(name) {
+    return kittens.slice(-1)  
+  }
+  
+  
+  
+  
   
   
