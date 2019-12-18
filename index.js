@@ -24,7 +24,7 @@ var kittens = ['Milo','Otis','Garfield'] //define your array here
     return [name, ... kittens];
   }
   function removeLastKitten(name) {
-    kittens.slice(-1);
+    kittens.slice(0,kittens.length-1);
     return kittens;
   }
   
