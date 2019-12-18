@@ -21,7 +21,7 @@ var kittens = ['Milo','Otis','Garfield'] //define your array here
     return kittens.concat(name);
   }
   function prependKitten(name) {
-    return [name, ... kittens];s
+    return [name, ... kittens];
   }
   
   
