@@ -21,8 +21,7 @@ var kittens = ['Milo','Otis','Garfield'] //define your array here
     return kittens.concat(name);
   }
   function prependKitten(name) {
-    kittens.splice(0, 0, name);
-    return kittens;
+    return [name, ... kittens];s
   }
   
   
